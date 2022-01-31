@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: npx cypress run --record --key 103bc524-749f-490a-ba49-dadb8b635b81
+        uses: cypress run --record --key 103bc524-749f-490a-ba49-dadb8b635b81
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
